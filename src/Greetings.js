@@ -1,3 +1,8 @@
-export function Greetings() {
-return <h1>Componente de React</h1>
+export function Greetings({title}) {
+  console.log(title)
+return <h1>{title}</h1>
+  }
+
+  export function UserCard(){
+    
   }
